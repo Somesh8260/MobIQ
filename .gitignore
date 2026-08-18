@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production Builds
+dist/
+client/dist/
+build/
+
+# Environment Variables & Keys
+.env
+.env.local
+.env.*.local
+server/.env
+
+# Logs & Temp Files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE & Editor Configs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary media & local generated files
+.tempmediaStorage/
+.system_generated/
