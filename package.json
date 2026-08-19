@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "MobIQ - Next-Gen Smartphone Recommendation, Comparison & Multi-Store Price Tracker",
   "scripts": {
+    "build": "npm --prefix client install && npm --prefix client run build",
     "server": "npm --prefix server start",
     "client": "npm --prefix client dev",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
